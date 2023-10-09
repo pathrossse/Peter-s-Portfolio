@@ -1,0 +1,55 @@
+body {
+    background-image:url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80);
+    font-family: Adobe Garamond Pro Bold, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5fe0ef;
+    color: #5fe0ef;
+}
+
+header {
+    background-image:url(https://media.istockphoto.com/id/538676280/photo/blue-sky-over-sardinia.jpg?s=612x612&w=0&k=20&c=s-bj27wR1VlsY-JN74VqRtF7NH1xUocEgPStIIIkhts=);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+section {
+
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+@media (max-width : 768px) {
+    header{
+        padding: 30px 0;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+    
+    nav a:hover{
+        color: red;
+    }
+}
+
